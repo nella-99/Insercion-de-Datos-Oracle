@@ -1,0 +1,29 @@
+insert into ALUMNO values(1,1,5,'Dareck','Mero Suarez');
+insert into ALUMNO values(2,2,4,'Elias','Cobos Fernandez');
+insert into ALUMNO values(3,3,5, 'Nelson','Chavez Pico');
+insert into ALUMNO values(4,4,3, 'Jean','Roldan Giler');
+insert into ALUMNO values(5,5,4, 'Josue','Valdez Gomez');
+
+select *from ALUMNO
+
+insert into REPRESENTANTE values(1,'0987654321','jona1@gmail.com','Padre','Jonathan','Mero Conforme');
+insert into REPRESENTANTE values(2,'0981234567','cobos2@gmail.com','Padre','Josue','Cobos Rodriguez');
+insert into REPRESENTANTE values(3,'0965432189', 'jenni@gmail.com','Madre','Antonella','Pico Holguin');
+insert into REPRESENTANTE values(4,'0951234878','monse@gmail.com','Madre','Cinthia','Roldan Cedeño');
+insert into REPRESENTANTE values(5,'0991234567','dario@gmail.com','Padre','Dario','Valdez Zambrano');
+
+select *from REPRESENTANTE
+
+insert into HORARIO values (1,'Mañana','08:00');
+insert into HORARIO values(2,'Tarde','14:30');
+
+select *from HORARIO
+
+insert into REGISTROALUMNO values(1,1,1,'09-08-2020');
+insert into REGISTROALUMNO values(2,2,2,'08-09-2020');
+insert into REGISTROALUMNO values(3,3,3,'15-09-2020');
+insert into REGISTROALUMNO values(4,4,4,'15-08-2020');
+insert into REGISTROALUMNO values(5,5,5,'02-08-2020');
+
+select *from REGISTROALUMNO
+
